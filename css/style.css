@@ -1,0 +1,53 @@
+#links{
+    padding: 2%;
+}
+
+.navbtn:hover{
+    background-color: #777777;
+    border-radius: 5%;
+    transition: border-bottom 0.7s;
+}
+
+.fonte-inter{
+    font-family: 'Inter', sans-serif;
+}
+
+#btn-disp{
+    background-color: #9BF00B;
+	border-color: #9BF00B;
+	color: black;
+    border-radius: 5%;
+}
+
+#btn-disp:hover{
+    border-color: #9BF00B;
+    color: white;
+    background-color: #0C0C0C;
+    transition: 1s;
+}
+
+#console{
+    width: 60%;
+}
+
+#controle{
+    width: 55%;
+}
+
+.games{
+    width: 90%;
+    transition: 1s;
+}
+
+.games:hover{
+    box-shadow: 0px 0px 9px 5px #9BF00B;
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    -webkit-filter:grayscale(0%);
+    transition: 1s;
+}
