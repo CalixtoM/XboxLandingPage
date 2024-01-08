@@ -68,10 +68,18 @@
 }
 
 #footer{
-    padding-top: 3%;
+    padding-top: 6%;
     padding-bottom: 3%;
 }
 
 #footer-copy{
     color: #777777;
+}
+
+
+@media (max-width: 480px) {
+    .mobile-text{
+        text-align: center;
+        justify-content: center;
+    }
 }
