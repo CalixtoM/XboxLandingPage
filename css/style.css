@@ -66,3 +66,12 @@
 .pergunta{
     color: white;
 }
+
+#footer{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#footer-copy{
+    color: #777777;
+}

@@ -14,6 +14,14 @@
 </head>
 <body>
 
+    <script>
+        const date = new Date();
+        console.log(date);
+
+        let year = date.getFullYear();
+        console.log(year);
+    </script>
+
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark " id="">
 		<div class="container-fluid">
 	    	<a class="navbar-brand" href="#" style="padding: 2%;"><img width="90" alt="Logotipo Xbox" class="d-inline-block align-text-top" src="img/logo-xbox.png"></a>
@@ -153,6 +161,31 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+	<footer class="page-footer font-small cyan darken-3" id="footer">
+
+        <!-- Footer Elements -->
+          <div class="container">
+  
+              <!-- Grid row-->
+              <div class="row">
+  
+                <div class="col-sm-3">
+                    <img src="img/logo-xbox.png" alt="">
+                </div>
+                <div class="col-sm-9 text-end">
+                    <script>
+                        document.write('<span id="footer-copy"> © Microsoft '+year+' - Todos os direitos reservados</span>')
+                    </script>
+                        
+                </div>
+  
+            </div>
+            <!-- Footer Elements -->
+  
+      </footer>
+      <!-- Footer -->
 
 </body>
 </html>
